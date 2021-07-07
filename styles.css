@@ -1,3 +1,94 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  background-clip: border-box;
+}
+
+header {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+}
+
+ul {
+  padding: 0 20px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+}
+
+ul li{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  padding: 0 20px;
+}
+
+.screen1 {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url('./photos/backdrop.jpg');
+  background-size: 100vw auto;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reservation_card {
+  background-color: white;
+  color: black;
+  position: absolute;
+  top: 350px;
+  right: 0;
+  height: auto;
+  width: 400px;
+  border-radius: 50px 0 0 50px;
+  padding: 15px 30px 15px 30px;
+}
+
+.reservation_card h1 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.reservation_card form {
+  height: 250px;
+  width: auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.reservation_card input {
+  background-color: rgb(233, 232, 232);
+  border: 3px solid rgb(94, 94, 94);
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 5px;
+  color: black;
+  
+}
+
+.reservation_card .submit {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(0,0,0);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  color:rgb(233, 232, 232)
+}
+
 img {
     width: 100px;
 }
