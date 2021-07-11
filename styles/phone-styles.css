@@ -1,0 +1,53 @@
+/* this is for phone and small displays */
+
+@media screen and (max-width: 900px){
+  
+    header nav ul li {
+      font-size: 1em;
+      padding: 10px 0;
+    }
+  
+    .title_card h1 {
+      font-size: 3em;
+    }
+  
+    .title_card h2 {
+      font-size: 1.5em;
+    }
+  
+    .photo_carousel {
+      display: inline-flex;
+      justify-content: flex-start;
+      overflow-x: scroll;
+    }
+  
+    .photo_carousel img {
+      width: auto;
+      height: 200px;
+      filter: brightness(100%);
+      padding: 0px 10px;
+    }
+  
+    .photo_carousel img:nth-child(3) {
+      width: auto;
+      height: 200px;
+      filter: brightness(100%);
+    }
+  
+    .photo_carousel img:nth-child(4) {
+      width: auto;
+      height: 200px;
+      filter: brightness(100%);
+    }
+  
+    .photo_carousel img:nth-child(5) {
+      width: auto;
+      height: 200px;
+      filter: brightness(100%);
+    }  
+  
+    .photo_carousel button {
+      visibility: hidden;
+    }
+  
+  }
