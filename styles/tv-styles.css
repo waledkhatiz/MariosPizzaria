@@ -80,4 +80,16 @@
         font-size: 1.7em;
       }
     }
+
+    .screen3 h1 {
+      font-size: 4em;
+      padding-left: 150px;
+    }
+
+    .screen3 p {
+      padding-top: 50px;
+      font-size: 2em;
+      width: 70%;
+    }
+
   }

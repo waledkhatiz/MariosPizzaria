@@ -125,4 +125,14 @@
       height: 150px;
       filter: brightness(70%);
     }  
+
+
+    .screen3 h1 {
+      font-size: 2em;
+      padding: 30px;
+    }
+
+    .screen3 p {
+      font-size: 1.2em;
+    }
   }  
