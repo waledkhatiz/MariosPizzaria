@@ -41,6 +41,11 @@ header ul li{
   padding: 10px 40px;
 }
 
+header ul li:hover{
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer
+}
+
 .screen1 {
   position: relative;
   display: flex;
@@ -77,6 +82,11 @@ header ul li{
   border: 3px solid white;
   color: white;
   margin: 0 10px 0 10px;
+}
+
+.title_card button:hover{
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
 }
 
 .reservation_card {
