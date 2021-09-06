@@ -1,51 +1,13 @@
-:root {
-    --dark-color: #3a221c;
-    --medium-color: #b3a39c;
-    --light-color: #f0ebe9;
-    --very-light-color: #faf8f8;
-}
-
-body {
-    background: var(--very-light-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-svg {
-    width: 100px;
-    height: 100px;
-    padding: 10px;
+* {
+    padding: 0; border: 0; margin: 0;
 }
 
 h1 {
-    color:var(--dark-color);
-    font-size: 2em;
-    font-weight:normal;
-    padding: 10px;
+    padding: 0; border: 0; margin: 20px;
+    font: 300 30px Arial, Helvetica, sans-serif;
 }
 
-
-table, th, td {
-    border: 2px solid var(--medium-color);
-    background: var(--light-color);
-    color: var(--dark-color);
-    border-collapse: collapse;
-    text-align: left;
-    vertical-align: text-top;
+button {
+    padding: 5px; border: 1px solid black; margin: 0 20px;
+    font-size: 15px;
 }
-
-table {
-    width: 700px;
-    height: 300px;
-}
-
-th, td {
-    padding: 10px;
-}
-
-
-

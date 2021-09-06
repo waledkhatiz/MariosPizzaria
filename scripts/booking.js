@@ -3,7 +3,7 @@ let entireTable = document.querySelector('table');
 entireTable.innerHTML = `
         <tr>
             <th>Booking ID: </th> 
-            <td>000000001</td>
+            <td>000000001 <span>This is hard coded. No backend ¯\\_(ツ)_/¯</span></td>
         </tr>
         <tr>
             <th>Booking Details</th>

@@ -31,15 +31,19 @@ ourLocationsButton.addEventListener("click", () => {
 });
 
 viewMenuButton.addEventListener("click", () => {
-    window.location.replace("menu.html");
+    window.alert("The menu .pdf would download now");
 });
+
+orderOnlineButton.addEventListener("click", () => {
+    window.location.replace("order.html");
+})
 
 formElement.addEventListener("submit", (e) => {
     sessionStorage.setItem("customer-name", nameField.value);
     sessionStorage.setItem("guest-num", guestField.value);
     sessionStorage.setItem("date-time", timeField.value);
 
-    window.open("order.html");
+    window.open("booking.html");
 });
 
 prevButton.addEventListener("click", () => {
